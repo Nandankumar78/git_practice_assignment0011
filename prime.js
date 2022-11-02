@@ -5,17 +5,19 @@ for(let i=number;i<=number;i++){
 	     factor++
 	}
 
-	if(factor==5){
+	if(factor==2){
 		return true
 	}else{
 		return false
 	}
 }
-
-let ans=checkPrime(17)
+}
+let number =29
+let ans=checkPrime(number)
 
 if(ans==true){
-console.log(ans," Is a Prime Number")
-}else{
-	console.log(ans,"Is not a prime Number")
+console.log(number," Is a Prime Number")
+}
+else{
+	console.log(number,"Is not a prime Number")
 }
