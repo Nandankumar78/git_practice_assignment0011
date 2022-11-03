@@ -5,7 +5,7 @@ for(let i=number;i<=number;i++){
 	     factor++
 	}
 
-	if(factor==5){
+	if(factor==2){
 		return true
 	}else{
 		return false
